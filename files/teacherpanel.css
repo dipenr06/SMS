@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: lightgray; */
+}
+
+.nav ul li{
+    float: left;
+    padding: 10px;
+    list-style-type: none;
+    margin: 10px;
+    font-weight: 700;
+    background-color: crimson;
+    color: white;
+    border-radius: 12px;
+    width: 12%;
+    cursor: pointer;
+}
+
+.nav ul li:hover{
+    background-color: rgb(25, 112, 211);
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.nav{
+    margin-left: 20%;
+    text-align: center;
+}
